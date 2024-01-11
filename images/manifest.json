@@ -1,0 +1,66 @@
+{
+  "id" : "https://dgm24.github.io/IIIF Cuba test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in dgm24/IIIF-Cuba-test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1427,
+    "id" : "https://dgm24.github.io/IIIF Cuba test/images/00000840/canvas/",
+    "label" : {
+      "none" : [ "00000840" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://dgm24.github.io/IIIF Cuba test/images/00000840/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://dgm24.github.io/IIIF Cuba test/images/00000840/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 45,
+              "height" : 69
+            }, {
+              "width" : 90,
+              "height" : 137
+            }, {
+              "width" : 179,
+              "height" : 273
+            }, {
+              "width" : 357,
+              "height" : 546
+            }, {
+              "width" : 714,
+              "height" : 1092
+            }, {
+              "width" : 1427,
+              "height" : 2184
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1427,
+            "@id" : "https://dgm24.github.io/IIIF Cuba test/images/00000840",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2184
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1427,
+          "id" : "https://dgm24.github.io/IIIF Cuba test/images/00000840/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2184
+        },
+        "target" : "https://dgm24.github.io/IIIF Cuba test/images/00000840/canvas/"
+      } ]
+    } ],
+    "height" : 2184
+  } ]
+}
